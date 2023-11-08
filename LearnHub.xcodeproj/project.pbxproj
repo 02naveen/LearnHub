@@ -165,6 +165,7 @@
 				04CF3A562AF76111000E1AFC /* Assets.xcassets */,
 				04CF3A582AF76111000E1AFC /* LaunchScreen.storyboard */,
 				04CF3A5B2AF76111000E1AFC /* Info.plist */,
+				F92CD27B2AFC28FD007162A4 /* New Group */,
 				04CF3A532AF7610F000E1AFC /* LearnHub.xcdatamodeld */,
 			);
 			path = LearnHub;
@@ -186,6 +187,13 @@
 				04CF3A712AF76111000E1AFC /* Info.plist */,
 			);
 			path = LearnHubUITests;
+			sourceTree = "<group>";
+		};
+		F92CD27B2AFC28FD007162A4 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
