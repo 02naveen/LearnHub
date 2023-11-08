@@ -7,6 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0426861E2AF9310A005D456B /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0426861D2AF9310A005D456B /* video2.mp4 */; };
+		0426861F2AF9310A005D456B /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0426861D2AF9310A005D456B /* video2.mp4 */; };
+		042686202AF9310A005D456B /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0426861D2AF9310A005D456B /* video2.mp4 */; };
+		042EEBB02AF80C050065629E /* AudioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEBAF2AF80C050065629E /* AudioVC.swift */; };
+		042EEBB12AF80C050065629E /* AudioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEBAF2AF80C050065629E /* AudioVC.swift */; };
+		042EEBB22AF80C050065629E /* AudioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEBAF2AF80C050065629E /* AudioVC.swift */; };
+		042EEBB42AF80C1E0065629E /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEBB32AF80C1E0065629E /* VideoVC.swift */; };
+		042EEBB52AF80C1E0065629E /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEBB32AF80C1E0065629E /* VideoVC.swift */; };
+		042EEBB62AF80C1E0065629E /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEBB32AF80C1E0065629E /* VideoVC.swift */; };
+		042EEBB82AF80C360065629E /* BooksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEBB72AF80C360065629E /* BooksVC.swift */; };
+		042EEBB92AF80C360065629E /* BooksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEBB72AF80C360065629E /* BooksVC.swift */; };
+		042EEBBA2AF80C360065629E /* BooksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEBB72AF80C360065629E /* BooksVC.swift */; };
+		042EEBBC2AF80C5B0065629E /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEBBB2AF80C5B0065629E /* HelpVC.swift */; };
+		042EEBBD2AF80C5B0065629E /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEBBB2AF80C5B0065629E /* HelpVC.swift */; };
+		042EEBBE2AF80C5B0065629E /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEBBB2AF80C5B0065629E /* HelpVC.swift */; };
+		042EEBC02AF80C710065629E /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEBBF2AF80C710065629E /* AboutVC.swift */; };
+		042EEBC12AF80C710065629E /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEBBF2AF80C710065629E /* AboutVC.swift */; };
+		042EEBC22AF80C710065629E /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEBBF2AF80C710065629E /* AboutVC.swift */; };
+		042EEBC42AF80C830065629E /* RateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEBC32AF80C830065629E /* RateVC.swift */; };
+		042EEBC52AF80C830065629E /* RateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEBC32AF80C830065629E /* RateVC.swift */; };
+		042EEBC62AF80C830065629E /* RateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EEBC32AF80C830065629E /* RateVC.swift */; };
+		04A8FB502AF7F02600B6B6B1 /* signupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8FB4F2AF7F02600B6B6B1 /* signupVC.swift */; };
+		04A8FB512AF7F02600B6B6B1 /* signupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8FB4F2AF7F02600B6B6B1 /* signupVC.swift */; };
+		04A8FB522AF7F02600B6B6B1 /* signupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8FB4F2AF7F02600B6B6B1 /* signupVC.swift */; };
+		04A8FB542AF7F05A00B6B6B1 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8FB532AF7F05A00B6B6B1 /* loginVC.swift */; };
+		04A8FB552AF7F05A00B6B6B1 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8FB532AF7F05A00B6B6B1 /* loginVC.swift */; };
+		04A8FB562AF7F05A00B6B6B1 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8FB532AF7F05A00B6B6B1 /* loginVC.swift */; };
+		04A8FB582AF7F07800B6B6B1 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8FB572AF7F07800B6B6B1 /* DashboardVC.swift */; };
+		04A8FB592AF7F07800B6B6B1 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8FB572AF7F07800B6B6B1 /* DashboardVC.swift */; };
+		04A8FB5A2AF7F07800B6B6B1 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8FB572AF7F07800B6B6B1 /* DashboardVC.swift */; };
+		04C8C4B42AF8FEEB00B16544 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04C8C4B32AF8FEEB00B16544 /* video.mp4 */; };
+		04C8C4B52AF8FEEB00B16544 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04C8C4B32AF8FEEB00B16544 /* video.mp4 */; };
+		04C8C4B62AF8FEEB00B16544 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04C8C4B32AF8FEEB00B16544 /* video.mp4 */; };
 		04CF3A4D2AF7610F000E1AFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF3A4C2AF7610F000E1AFC /* AppDelegate.swift */; };
 		04CF3A4F2AF7610F000E1AFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF3A4E2AF7610F000E1AFC /* ViewController.swift */; };
 		04CF3A522AF7610F000E1AFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CF3A502AF7610F000E1AFC /* Main.storyboard */; };
@@ -15,6 +48,9 @@
 		04CF3A5A2AF76111000E1AFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CF3A582AF76111000E1AFC /* LaunchScreen.storyboard */; };
 		04CF3A652AF76111000E1AFC /* LearnHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF3A642AF76111000E1AFC /* LearnHubTests.swift */; };
 		04CF3A702AF76111000E1AFC /* LearnHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF3A6F2AF76111000E1AFC /* LearnHubUITests.swift */; };
+		04D4A3E42AF9064C009A5627 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04D4A3E32AF9064C009A5627 /* audio.mp3 */; };
+		04D4A3E52AF9064C009A5627 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04D4A3E32AF9064C009A5627 /* audio.mp3 */; };
+		04D4A3E62AF9064C009A5627 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04D4A3E32AF9064C009A5627 /* audio.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +71,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0426861D2AF9310A005D456B /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
+		042EEBAF2AF80C050065629E /* AudioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioVC.swift; sourceTree = "<group>"; };
+		042EEBB32AF80C1E0065629E /* VideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		042EEBB72AF80C360065629E /* BooksVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksVC.swift; sourceTree = "<group>"; };
+		042EEBBB2AF80C5B0065629E /* HelpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
+		042EEBBF2AF80C710065629E /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		042EEBC32AF80C830065629E /* RateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateVC.swift; sourceTree = "<group>"; };
+		04A8FB4F2AF7F02600B6B6B1 /* signupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupVC.swift; sourceTree = "<group>"; };
+		04A8FB532AF7F05A00B6B6B1 /* loginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
+		04A8FB572AF7F07800B6B6B1 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		04C8C4B32AF8FEEB00B16544 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		04CF3A492AF7610F000E1AFC /* LearnHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CF3A4C2AF7610F000E1AFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04CF3A4E2AF7610F000E1AFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +96,7 @@
 		04CF3A6B2AF76111000E1AFC /* LearnHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CF3A6F2AF76111000E1AFC /* LearnHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnHubUITests.swift; sourceTree = "<group>"; };
 		04CF3A712AF76111000E1AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D4A3E32AF9064C009A5627 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +149,18 @@
 			children = (
 				04CF3A4C2AF7610F000E1AFC /* AppDelegate.swift */,
 				04CF3A4E2AF7610F000E1AFC /* ViewController.swift */,
+				04A8FB4F2AF7F02600B6B6B1 /* signupVC.swift */,
+				04A8FB532AF7F05A00B6B6B1 /* loginVC.swift */,
+				04A8FB572AF7F07800B6B6B1 /* DashboardVC.swift */,
+				042EEBAF2AF80C050065629E /* AudioVC.swift */,
+				042EEBB32AF80C1E0065629E /* VideoVC.swift */,
+				042EEBB72AF80C360065629E /* BooksVC.swift */,
+				042EEBBB2AF80C5B0065629E /* HelpVC.swift */,
+				042EEBBF2AF80C710065629E /* AboutVC.swift */,
+				042EEBC32AF80C830065629E /* RateVC.swift */,
+				04D4A3E32AF9064C009A5627 /* audio.mp3 */,
+				04C8C4B32AF8FEEB00B16544 /* video.mp4 */,
+				0426861D2AF9310A005D456B /* video2.mp4 */,
 				04CF3A502AF7610F000E1AFC /* Main.storyboard */,
 				04CF3A562AF76111000E1AFC /* Assets.xcassets */,
 				04CF3A582AF76111000E1AFC /* LaunchScreen.storyboard */,
@@ -234,7 +294,10 @@
 			files = (
 				04CF3A5A2AF76111000E1AFC /* LaunchScreen.storyboard in Resources */,
 				04CF3A572AF76111000E1AFC /* Assets.xcassets in Resources */,
+				0426861E2AF9310A005D456B /* video2.mp4 in Resources */,
 				04CF3A522AF7610F000E1AFC /* Main.storyboard in Resources */,
+				04C8C4B42AF8FEEB00B16544 /* video.mp4 in Resources */,
+				04D4A3E42AF9064C009A5627 /* audio.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +305,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C8C4B52AF8FEEB00B16544 /* video.mp4 in Resources */,
+				04D4A3E52AF9064C009A5627 /* audio.mp3 in Resources */,
+				0426861F2AF9310A005D456B /* video2.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +315,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C8C4B62AF8FEEB00B16544 /* video.mp4 in Resources */,
+				04D4A3E62AF9064C009A5627 /* audio.mp3 in Resources */,
+				042686202AF9310A005D456B /* video2.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +328,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042EEBB42AF80C1E0065629E /* VideoVC.swift in Sources */,
+				042EEBBC2AF80C5B0065629E /* HelpVC.swift in Sources */,
+				042EEBB82AF80C360065629E /* BooksVC.swift in Sources */,
+				04A8FB502AF7F02600B6B6B1 /* signupVC.swift in Sources */,
+				042EEBC42AF80C830065629E /* RateVC.swift in Sources */,
+				04A8FB582AF7F07800B6B6B1 /* DashboardVC.swift in Sources */,
+				04A8FB542AF7F05A00B6B6B1 /* loginVC.swift in Sources */,
+				042EEBB02AF80C050065629E /* AudioVC.swift in Sources */,
 				04CF3A552AF7610F000E1AFC /* LearnHub.xcdatamodeld in Sources */,
 				04CF3A4F2AF7610F000E1AFC /* ViewController.swift in Sources */,
+				042EEBC02AF80C710065629E /* AboutVC.swift in Sources */,
 				04CF3A4D2AF7610F000E1AFC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +347,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042EEBB52AF80C1E0065629E /* VideoVC.swift in Sources */,
+				042EEBBD2AF80C5B0065629E /* HelpVC.swift in Sources */,
+				042EEBC52AF80C830065629E /* RateVC.swift in Sources */,
+				04A8FB512AF7F02600B6B6B1 /* signupVC.swift in Sources */,
+				04A8FB592AF7F07800B6B6B1 /* DashboardVC.swift in Sources */,
+				042EEBB12AF80C050065629E /* AudioVC.swift in Sources */,
+				042EEBC12AF80C710065629E /* AboutVC.swift in Sources */,
+				04A8FB552AF7F05A00B6B6B1 /* loginVC.swift in Sources */,
+				042EEBB92AF80C360065629E /* BooksVC.swift in Sources */,
 				04CF3A652AF76111000E1AFC /* LearnHubTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +364,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042EEBB62AF80C1E0065629E /* VideoVC.swift in Sources */,
+				042EEBBE2AF80C5B0065629E /* HelpVC.swift in Sources */,
+				042EEBC62AF80C830065629E /* RateVC.swift in Sources */,
+				04A8FB522AF7F02600B6B6B1 /* signupVC.swift in Sources */,
+				04A8FB5A2AF7F07800B6B6B1 /* DashboardVC.swift in Sources */,
+				042EEBB22AF80C050065629E /* AudioVC.swift in Sources */,
+				042EEBC22AF80C710065629E /* AboutVC.swift in Sources */,
+				04A8FB562AF7F05A00B6B6B1 /* loginVC.swift in Sources */,
+				042EEBBA2AF80C360065629E /* BooksVC.swift in Sources */,
 				04CF3A702AF76111000E1AFC /* LearnHubUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
