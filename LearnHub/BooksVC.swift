@@ -74,7 +74,16 @@ class BooksVC: UIViewController,UITableViewDelegate, UITableViewDataSource,UITex
         // Do any additional setup after loading the view.
     }
     
+    @IBOutlet weak var switch1: UISwitch!
     
+    @IBAction func switch2(_ sender: Any) {
+        if switch1.isOn {
+            view.backgroundColor = UIColor.orange
+        }
+        else {
+            view.backgroundColor = UIColor.black
+        }
+    }
     
 
     

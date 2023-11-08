@@ -34,5 +34,24 @@ class HelpVC: UIViewController {
         self.present(alert2,animated: true,completion: nil)
         
     }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        name.resignFirstResponder()
+        email.resignFirstResponder()
+        phone.resignFirstResponder()
+        quaries.resignFirstResponder()
+        return true
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
     
+    @IBOutlet weak var switch1: UISwitch!
+    @IBAction func switch2(_ sender: Any) {
+        if switch1.isOn {
+            view.backgroundColor = UIColor.orange
+        }
+        else {
+            view.backgroundColor = UIColor.black
+        }
+    }
 }

@@ -37,6 +37,15 @@ class AudioVC: UIViewController {
         vlc.currentTime = 0
     }
     
+    @IBOutlet weak var switch1: UISwitch!
+    @IBAction func switch2(_ sender: Any) {
+        if switch1.isOn {
+            view.backgroundColor = UIColor.orange
+        }
+        else {
+            view.backgroundColor = UIColor.black
+        }
+    }
     @IBAction func callReplay(_ sender: Any) {
         vlc.currentTime = 0
         vlc.play()

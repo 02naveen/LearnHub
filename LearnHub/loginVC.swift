@@ -8,7 +8,7 @@
 
 import UIKit
 
-class loginVC: UIViewController {
+class loginVC: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -71,6 +71,15 @@ class loginVC: UIViewController {
         alert2.addAction(UIAlertAction(title: "Ok", style: .default, handler:okhandler1))
         self.present(alert2,animated: true,completion: nil)
         
+    }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        password.resignFirstResponder()
+        Uname1.resignFirstResponder()
+
+        return true
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
     }
     
 }

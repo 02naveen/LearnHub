@@ -56,5 +56,21 @@ class RateVC: UIViewController {
         alert2.addAction(UIAlertAction(title: "Ok", style: .default, handler:okhandler1))
         self.present(alert2,animated: true,completion: nil)
     }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        exper.resignFirstResponder()
+        return true
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
     
+    @IBOutlet weak var switch1: UISwitch!
+    @IBAction func switch2(_ sender: Any) {
+        if switch1.isOn {
+            view.backgroundColor = UIColor.orange
+        }
+        else {
+            view.backgroundColor = UIColor.black
+        }
+    }
 }

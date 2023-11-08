@@ -44,6 +44,15 @@ class signupVC: UIViewController, UITextFieldDelegate {
     }
     
     
+    @IBOutlet weak var switch1: UISwitch!
+    @IBAction func switch2(_ sender: Any) {
+        if switch1.isOn {
+            view.backgroundColor = UIColor.orange
+        }
+        else {
+            view.backgroundColor = UIColor.black
+        }
+    }
     /*
      // MARK: - Navigation
      
