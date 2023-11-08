@@ -48,9 +48,9 @@
 		04CF3A5A2AF76111000E1AFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CF3A582AF76111000E1AFC /* LaunchScreen.storyboard */; };
 		04CF3A652AF76111000E1AFC /* LearnHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF3A642AF76111000E1AFC /* LearnHubTests.swift */; };
 		04CF3A702AF76111000E1AFC /* LearnHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF3A6F2AF76111000E1AFC /* LearnHubUITests.swift */; };
-		04D4A3E42AF9064C009A5627 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04D4A3E32AF9064C009A5627 /* audio.mp3 */; };
-		04D4A3E52AF9064C009A5627 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04D4A3E32AF9064C009A5627 /* audio.mp3 */; };
-		04D4A3E62AF9064C009A5627 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04D4A3E32AF9064C009A5627 /* audio.mp3 */; };
+		F92CD2642AFC060D007162A4 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F92CD2632AFC060D007162A4 /* audio.mp3 */; };
+		F92CD2652AFC060D007162A4 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F92CD2632AFC060D007162A4 /* audio.mp3 */; };
+		F92CD2662AFC060D007162A4 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F92CD2632AFC060D007162A4 /* audio.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,7 +96,7 @@
 		04CF3A6B2AF76111000E1AFC /* LearnHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CF3A6F2AF76111000E1AFC /* LearnHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnHubUITests.swift; sourceTree = "<group>"; };
 		04CF3A712AF76111000E1AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04D4A3E32AF9064C009A5627 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
+		F92CD2632AFC060D007162A4 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = audio.mp3; path = "../../LearnHub 3/LearnHub/audio.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,8 +158,8 @@
 				042EEBBB2AF80C5B0065629E /* HelpVC.swift */,
 				042EEBBF2AF80C710065629E /* AboutVC.swift */,
 				042EEBC32AF80C830065629E /* RateVC.swift */,
-				04D4A3E32AF9064C009A5627 /* audio.mp3 */,
 				04C8C4B32AF8FEEB00B16544 /* video.mp4 */,
+				F92CD2632AFC060D007162A4 /* audio.mp3 */,
 				0426861D2AF9310A005D456B /* video2.mp4 */,
 				04CF3A502AF7610F000E1AFC /* Main.storyboard */,
 				04CF3A562AF76111000E1AFC /* Assets.xcassets */,
@@ -293,11 +293,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04CF3A5A2AF76111000E1AFC /* LaunchScreen.storyboard in Resources */,
+				F92CD2642AFC060D007162A4 /* audio.mp3 in Resources */,
 				04CF3A572AF76111000E1AFC /* Assets.xcassets in Resources */,
 				0426861E2AF9310A005D456B /* video2.mp4 in Resources */,
 				04CF3A522AF7610F000E1AFC /* Main.storyboard in Resources */,
 				04C8C4B42AF8FEEB00B16544 /* video.mp4 in Resources */,
-				04D4A3E42AF9064C009A5627 /* audio.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C8C4B52AF8FEEB00B16544 /* video.mp4 in Resources */,
-				04D4A3E52AF9064C009A5627 /* audio.mp3 in Resources */,
+				F92CD2652AFC060D007162A4 /* audio.mp3 in Resources */,
 				0426861F2AF9310A005D456B /* video2.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,7 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C8C4B62AF8FEEB00B16544 /* video.mp4 in Resources */,
-				04D4A3E62AF9064C009A5627 /* audio.mp3 in Resources */,
+				F92CD2662AFC060D007162A4 /* audio.mp3 in Resources */,
 				042686202AF9310A005D456B /* video2.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

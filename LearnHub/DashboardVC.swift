@@ -16,7 +16,16 @@ class DashboardVC: UIViewController {
         
     }
     
+    @IBOutlet weak var switch1: UISwitch!
     @IBOutlet weak var Uname: UILabel!
     var n = " "
     
+    @IBAction func switch2(_ sender: Any) {
+    if switch1.isOn {
+        view.backgroundColor = UIColor.orange
+    }
+    else {
+        view.backgroundColor = UIColor.black
+        }
+    }
 }

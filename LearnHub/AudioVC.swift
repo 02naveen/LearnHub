@@ -19,7 +19,7 @@ class AudioVC: UIViewController {
         // Do any additional setup after loading the view.
         do{
             let song_url = Bundle.main.path(forResource: "audio", ofType: "mp3")
-            try vlc = AVAudioPlayer(contentsOf: NSURL(string: song_url!)as! URL)
+            try vlc = AVAudioPlayer(contentsOf: NSURL(string: song_url!) as! URL)
         }
         catch{}
     }
